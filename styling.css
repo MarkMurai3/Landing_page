@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(173, 123, 98);
+    color: rgb(255, 255, 255);
+}
+
+.upper-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Logo {
+    font-size: 20px;
+    font-weight: bolder;
+    font-stretch: expanded;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+/* THIS AND UL ARE RELATED */
+.list {
+    text-decoration: none;
+    color: white;
+}
+
+.down-head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+
+/* NEXT TO THIS WEBSITE IS AWESOME */ 
+.profile {
+    width: 250px;
+    height: auto;
+}
+
+.desc-text {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.description {
+    width: 400px;
+}
+
+.examples {
+    display: flex;
+    align-items: center;
+    margin: 0 150px;
+    flex-direction: column;
+}
+
+/* first sign up button */
+.first {
+    color: white;
+    font-size: larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    background-color: blue;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+/* TEXT ABOVE THE 4 PHOTOS */
+.info {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+    text-align: center;
+}
+/* THE 4 DECORATION PHOTOS */
+.container {
+    display: flex;
+    flex-shrink: 1;
+    padding: 100px 0;
+    padding-top: 70px;
+    flex-wrap: wrap;
+}
+
+.boxes {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 15px;
+}
+
+.deco-text {
+    width: 206px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+/* QUOTE PART */
+.inspirational {
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+    padding: 80px 200px;
+}
+
+.quote {
+    width: auto;
+    font-size: 35px;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 40px 100px;
+    margin-right: 0;
+    text-align: start;
+}
+
+.by {
+    font-size: 25px;
+    text-align: end;
+    font-weight: bold;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    display: flex;
+    background-color: #3883f6;
+    color:white;
+    padding: 20px 100px;
+    padding-right: 50px;
+    margin: 80px 0px;
+    border-radius: 10px;
+}
+
+.second-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.second {
+    background-color: #3883f6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+
+.footer {
+    padding: 30px;
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+}
+
+.sign {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.sign-text {
+    margin-top: 0;
+    font-weight: 100;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+}
