@@ -13,7 +13,7 @@ body {
 }
 
 .Logo {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bolder;
     font-stretch: expanded;
 }
@@ -28,7 +28,9 @@ ul {
 .list {
     text-decoration: none;
     color: white;
+    font-size: 20px;
 }
+
 
 .down-head{
     display: flex;
@@ -61,13 +63,13 @@ ul {
 
 /* first sign up button */
 .first {
-    color: white;
+    color: grey;
     font-size: larger;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-    background-color: blue;
+    background-color: beige;
     border: 0;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 10px 30px;
 }
 /* TEXT ABOVE THE 4 PHOTOS */
 .info {
@@ -133,7 +135,7 @@ ul {
 
 .blue-box {
     display: flex;
-    background-color: #3883f6;
+    background-color: #5f4b30;
     color:white;
     padding: 20px 100px;
     padding-right: 50px;
@@ -149,7 +151,7 @@ ul {
 }
 
 .second {
-    background-color: #3883f6;
+    background-color: #5f4b30;
     color: white;
     border: 2px solid white;
     border-radius: 5px;
